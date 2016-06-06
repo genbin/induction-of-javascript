@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>a</title>
+	<script type="text/javascript">
+		document.domain = 'testxdf.cn';
+		function a(arg){
+	    	alert(arg);
+	    }
+	</script>
+</head>
+<body>
+	<iframe id="proxy_b" src="http://videomanage.testxdf.cn/templates/videos/video/b.html" onload="onload_b();"></iframe>
+
+	<script type="text/javascript">
+		function onload_b() {
+			var iframe = document.getElementById('proxy_b');
+			var b_doc = iframe.contentDocument || iframe.contentWindow.document;
+			alert(b_doc.getElementById('bdiv').innerHTML);    	
+		}
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<head>
+<script>
+    startList = function() 
+    {
+        if (document.all&&document.getElementById) 
+        {
+            navRoot = document.getElementById("nav");
+            for (i=0; i<navRoot.childNodes.length; i++) 
+            {
+                node = navRoot.childNodes[ i ];
+                if (node.nodeName=="LI") 
+                {
+                    node.onmouseover=function(){this.className+=" over";}
+                    node.onmouseout=function(){this.className=this.className.replace(" over", "");}
+                }
+            }
+        }
+    }
+    window.onload=startList;
+</script>  
+<style>
+body {
+    font: normal 11px verdana;
+} 
+
+.category_ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px; /* Width of Menu Items */
+    border-bottom: 1px solid #ccc;
+}
+
+.category_ul li {
+    position: relative;
+}
+
+li .category_ul {
+    position: absolute;
+    left: 149px; /* Set 1px less than menu width */
+    top: 0;
+    display: none;
+}
+
+/* Styles for Menu Items */
+.category_ul li a {
+    display: block;
+    text-decoration: none;
+    color: #777;
+    background: #fff; /* IE6 Bug */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html .category_ul li { float: left; height: 1%; }
+* html .category_ul li a { height: 1%; }
+/* End */
+
+.category_ul li a:hover { color: #E2144A; background: #f9f9f9; } /* Hover Styles */
+
+li .category_ul li a { padding: 2px 5px; } /* Sub Menu Styles */
+
+li:hover .category_ul, li.over .category_ul { display: block; } /* The magic */    
+</style>
+</head>
+
+<body>
+
+<ul class="category_ul" id="nav"> 
+    <li><a href="#">Home</a></li> 
+    <li><a href="#">About</a>   
+        <ul class="category_ul"> 
+        <li><a href="#">History</a></li> 
+        <li><a href="#">Team</a></li> 
+        <li><a href="#">Offices</a></li> 
+        </ul> 
+    </li> 
+    <li><a href="#">Services</a> 
+        <ul class="category_ul"> 
+        <li><a href="#">Web Design</a></li> 
+        <li><a href="#">Internet Marketing</a></li> 
+        <li><a href="#">Hosting</a></li> 
+        <li><a href="#">Domain Names</a></li> 
+        <li><a href="#">Broadband</a></li> 
+        </ul> 
+    </li> 
+    <li><a href="#">Contact Us</a> 
+        <ul class="category_ul"> 
+        <li><a href="#">United Kingdom</a></li> 
+        <li><a href="#">France</a></li> 
+        <li><a href="#">USA</a></li> 
+        <li><a href="#">Australia</a></li> 
+        </ul> 
+    </li> 
+</ul> 
+</body>

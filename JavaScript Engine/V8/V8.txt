@@ -1,0 +1,11 @@
+
+V8
+
+	目前该JavaScript引擎已用于其它项目的开发。第一个版本随着第一个版本的Chrome与2008年9月2日发布。
+
+	V8使用C++开发，并在谷歌浏览器中使用。在运行JavaScript之前，相比其它的JavaScript的引擎转换成字节码或解释执行，V8将其编译成原生机器码（IA-32, x86-64, ARM, or MIPS CPUs），并且使用了如内联缓存（inline caching）等方法来提高性能。有了这些功能，JavaScript程序在V8引擎下的运行速度媲美二进制程序。
+
+	V8中实现的ECMAScript中指定 ECMA - 262 ，第3版 运行在 Windows XP和 Vista,Mac OS X 的 10.5（雪豹和Linux系统使用IA - 32或ARM处理器。
+
+	V8可以独立运行，也可以嵌入到任何C++应用程序。项目托管在Google Code上[1] ，基于BSD协议，任何组织或个人可以将其源码用于自己的项目中。
+

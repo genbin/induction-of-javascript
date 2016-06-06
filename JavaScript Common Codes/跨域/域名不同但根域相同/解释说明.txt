@@ -1,0 +1,8 @@
+解释说明
+
+	域名不同但根域相同，两个页面可以互访
+
+	示例：网页地址栏中访问域1下的a.html，alert弹窗出现 3 和 sdf
+
+	实现方式：document.domain + iframe 
+

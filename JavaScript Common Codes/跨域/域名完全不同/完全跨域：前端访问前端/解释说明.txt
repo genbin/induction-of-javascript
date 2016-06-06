@@ -1,0 +1,7 @@
+解释说明
+
+	完全跨域下的前端访问前端
+
+	示例：网页地址栏中访问域2下的test.html，alert弹窗出现 域1页面中的 3 和 sdf
+
+	实现方式：window.name + iframe * 2 ( + document.domain )

@@ -1,0 +1,5 @@
+介绍
+
+	把 javacript 用 mvp (model + view + presenter) 的思想贯穿，充分使用 ajax 异步加载的方式，实现 js、html、php 的完全分离
+ 
+ 

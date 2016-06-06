@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<title>test</title>
+</head>
+
+<body>
+	
+	<iframe id="proxy_b" src="http://videomanage.testxdf.cn/templates/videos/video/b.html"></iframe>
+
+	<iframe id="proxy_a" src="http://videomanage.testxdf.cn/templates/videos/video/a.html" onload="onload_a();" style="display:none;">
+	</iframe>
+
+	<script type="text/javascript">
+	
+		function onload_a() {
+			var iframe = document.getElementById('proxy_a');
+			iframe.onload = function(){
+				var data = iframe.contentWindow.name;
+				alert(data);
+			}
+			iframe.src = '';
+		}
+
+	</script>
+
+</body>
+</html>
