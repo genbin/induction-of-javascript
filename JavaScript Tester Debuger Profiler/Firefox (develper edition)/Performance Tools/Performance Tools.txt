@@ -1,0 +1,25 @@
+Performance Tools
+
+The Performance tool gives you insight into your site's general responsiveness, JavaScript and layout performance. With the Performance tool you create a recording, or profile, of your site over a period of time. 
+
+Four sub-tools to examine aspects of the profile
+
+	Waterfall
+
+		the Waterfall shows the different operations the browser was performing, such as executing layout, JavaScript, repaints, and garbage collection
+
+	Call Tree
+
+		the Call Tree shows the JavaScript functions in which the browser spent most of its time
+
+	Flame Chart
+
+		the Flame Chart shows the JavaScript call stack over the course of the recording
+
+	Allocations
+		
+		the Allocations view shows the heap allocations made by your code over the course of the recording. This view only appears if you checked "Record Allocations" in the Performance tool settings.
+
+
+Reference
+https://developer.mozilla.org/en-US/docs/Tools/Performance

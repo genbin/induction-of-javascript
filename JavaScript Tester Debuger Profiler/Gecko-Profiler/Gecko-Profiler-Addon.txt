@@ -1,0 +1,21 @@
+Gecko-Profiler-Addon
+
+The built-in profiler has two interfaces: 
+	
+	A simplified profiler
+	
+		For Web developers there is a simplified profiler that can be opened from the menu Tools > Web Developer > Performance. 
+
+	A advanced interface 
+
+		A more advanced interface for developers of Mozilla's internals can be obtained by installing Benoit Girard's Gecko Profiler add-on. Once installed, you should customize the Firefox toolbar (using the "Customize" option in the hamburger menu) and add the Profiler icon to the toolbar.
+
+firefox 中自带的 web developers 提供的 profiler 功能界面较为简单。通过 Gecko-Profiler-Addon 插件 或者 把生成的 profiler 文件上传到 https://cleopatra.io/ 可以显示更为详细的 profiler 解析结果
+
+这与 firefox (developer edition) 版本的 profiler 解析结果有何不同 ？
+
+ 
+Reference
+https://github.com/bgirard/cleopatra
+https://developer.mozilla.org/en-US/docs/Mozilla/Performance/Profiling_with_the_Built-in_Profiler
+https://cleopatra.io/

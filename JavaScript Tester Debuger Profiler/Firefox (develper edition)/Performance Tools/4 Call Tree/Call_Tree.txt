@@ -1,0 +1,35 @@
+Call_Tree
+
+You can zoom into the part of the recording that shows a long JavaScript marker.
+
+The Call Tree presents the results in a table. Each row represents a function in which at least one sample was taken, and the rows are ordered by the number of samples taken while in that function, highest to lowest.
+
+1	the most important columns
+	
+	Samples
+
+		Samples is the number of samples that were taken when we were executing this particular function.
+
+	Self Cost
+
+		Self Cost is that number as a percentage of the total number of samples in the selected portion of the recording.
+
+	Self Time
+
+		Self Time is that number translated into milliseconds, based on the total amount of time covered by the selected portion of the recording.
+
+	NOTE: Functions with a relatively high Self Cost are good candidates for optimization, either because they take a long time to run, or because they are called very often.
+
+2	Walking up the call tree
+
+	Next to each function name is a disclosure arrow: click that, and you can see the path back up the call tree from the function in which the sample was taken, to the root.
+
+3 	Platform data
+	
+	You'll also see some rows labeled Gecko, Input & Events, and so on. These represent internal browser calls.
+
+	This can be useful information too. If your site is making the browser work hard, this might not show up as samples recorded in your code, but it is still your problem.
+
+
+Reference
+https://developer.mozilla.org/en-US/docs/Tools/Performance/Call_Tree

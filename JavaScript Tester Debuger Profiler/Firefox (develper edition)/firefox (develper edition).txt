@@ -1,0 +1,36 @@
+firefox (develper edition)
+
+install
+	
+	https://www.mozilla.org/en-US/firefox/developer/  下载安装
+
+documentation
+	
+	https://www.mozilla.org/en-US/firefox/developer/ 下面有许多文档链接，按需查看
+
+	Visual Editing Tools
+
+		https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more/
+
+	DevTools Challenger
+
+		http://devtoolschallenger.com/
+
+	Performance Tools
+		
+		https://developer.mozilla.org/en-US/docs/Tools/Performance
+
+	Web Console	
+		
+		https://developer.mozilla.org/en-US/docs/Tools/Web_Console 
+
+	Network Monitor
+
+		https://developer.mozilla.org/docs/Tools/Network_Monitor
+
+
+
+https://www.mozilla.org/en-US/firefox/all/   最上方的 firefox 链接下的菜单下有个 developer 版本的下载链接  
+https://www.mozilla.org/en-US/firefox/developer/
+
+

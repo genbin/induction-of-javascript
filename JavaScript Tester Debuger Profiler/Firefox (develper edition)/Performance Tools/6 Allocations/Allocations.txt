@@ -1,0 +1,19 @@
+Allocations
+
+The allocations view periodically samples allocations that are made over the recording. Each row represents a function in which at least one allocation-sample was taken during the recording.
+
+It includes the following columns:
+
+	Self Count: the number of allocation-samples that were taken in this function (also shown as a percentage of the total)
+	
+	Self Bytes: the total number of bytes allocated in the allocation-samples in this function (also shown as a percentage of the total)
+
+	Self Cost: "Self" records samples taken only in this function. 
+
+	Total Cost: "Total" records samples taken in this function or in functions called by this function. 
+
+Allocations and garbage collection
+
+	TODO 
+
+https://developer.mozilla.org/en-US/docs/Tools/Performance/Allocations

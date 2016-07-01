@@ -1,0 +1,11 @@
+1 UI_Tour
+
+Toolbar
+Recordings pane
+Recording overview
+Details pane, which may contain any one of:
+	Waterfall
+	Call Tree
+	Flame Chart
+
+https://developer.mozilla.org/en-US/docs/Tools/Performance/UI_Tour
