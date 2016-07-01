@@ -1,0 +1,19 @@
+Waterfall
+
+Along the X-axis is time. Recorded operations, called markers, are shown as horizontal bars, laid out in a waterfall to reflect the serial nature of the browser's execution.
+
+Markers
+		
+	Recorded operations, called markers. The markers for operations are color-coded and labeled
+
+Filtering markers
+
+	You can control which markers are displayed using a button in the Toolbar
+
+Waterfall patterns	
+
+Adding markers with the console API
+
+Reference
+https://developer.mozilla.org/en-US/docs/Tools/Performance/Waterfall
+

@@ -1,0 +1,6 @@
+Web developers
+
+the menu Tools > Web Developer > Performance. 
+
+比较简单的性能检测工具
+
