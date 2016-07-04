@@ -1,0 +1,4 @@
+asynchronous programming
+
+http://www.html5rocks.com/en/tutorials/async/deferred/ ??
+https://api.jquery.com/category/deferred-object/
