@@ -15,4 +15,3 @@ Reference
 https://facebook.github.io/react-native/  
 https://facebook.github.io/react-native/docs/getting-started.html
 https://www.progville.com/javascript/react-native-apps-react-js/
-

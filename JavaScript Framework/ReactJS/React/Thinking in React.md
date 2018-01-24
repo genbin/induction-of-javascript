@@ -1,4 +1,4 @@
-Thinking in React
+# Thinking in React
 
 Step 1: break the UI into a component hierarchy
 

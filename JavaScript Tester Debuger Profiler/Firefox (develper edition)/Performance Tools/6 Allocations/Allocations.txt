@@ -1,6 +1,8 @@
-Allocations
+Allocations  分配
 
 The allocations view periodically samples allocations that are made over the recording. Each row represents a function in which at least one allocation-sample was taken during the recording.
+
+分配视图对记录中的内存分配情况进行周期取样。每一行表达了某个函数的至少一个样本的内存分配情况
 
 It includes the following columns:
 

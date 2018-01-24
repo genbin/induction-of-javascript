@@ -1,6 +1,7 @@
-Flux
+# Flux
 
-Reference
+## Reference
+
 https://facebook.github.io/flux/
 https://facebook.github.io/flux/docs/overview.html#content
 https://facebook.github.io/flux/docs/todo-list.html

@@ -1,16 +1,16 @@
-browerify
+# browerify
 
 npm install -g --save browserify
 
 Browsers don't have the require method defined, but Node.js does. With Browserify you can write code that uses require in the same way that you would use it in Node.
 
-For example
+## For example
 	
 	first: browserify a.js > bundle.js
 
 	second: in html, <script src='bundle.js'></script>
 
-Common Usage
+## Common Usage
 	
 	browserify a.js > bundle.js
 
@@ -18,7 +18,7 @@ Common Usage
 
  	browserify --help
 
-Reference
+## Reference
 	http://browserify.org
 	https://github.com/substack/node-browserify
 	https://github.com/substack/browserify-handbook

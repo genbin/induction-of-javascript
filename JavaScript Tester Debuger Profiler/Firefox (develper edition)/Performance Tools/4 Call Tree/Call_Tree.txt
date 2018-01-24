@@ -1,4 +1,4 @@
-Call_Tree
+Call_Tree 调用树
 
 You can zoom into the part of the recording that shows a long JavaScript marker.
 
@@ -6,15 +6,15 @@ The Call Tree presents the results in a table. Each row represents a function in
 
 1	the most important columns
 	
-	Samples
+	Samples  采样
 
 		Samples is the number of samples that were taken when we were executing this particular function.
 
-	Self Cost
+	Self Cost  自身耗费
 
 		Self Cost is that number as a percentage of the total number of samples in the selected portion of the recording.
 
-	Self Time
+	Self Time  自身耗时
 
 		Self Time is that number translated into milliseconds, based on the total amount of time covered by the selected portion of the recording.
 
@@ -30,6 +30,7 @@ The Call Tree presents the results in a table. Each row represents a function in
 
 	This can be useful information too. If your site is making the browser work hard, this might not show up as samples recorded in your code, but it is still your problem.
 
+4   函数名后面的tag标签是什么? 
 
 Reference
 https://developer.mozilla.org/en-US/docs/Tools/Performance/Call_Tree

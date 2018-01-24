@@ -1,9 +1,9 @@
-﻿npm
+﻿# npm
 
 npm makes it easy for JavaScript developers to share and reuse code, and it makes it easy to update the code that you're sharing.
 to manage third－party class libraries of js, and download the files to 'node_modules' in current directory after executing 'npm install'
 
-install
+## install
 
 The npm command-line tool is bundled with Node.js. If you have it installed, then you already have npm too. 
 
@@ -35,7 +35,17 @@ npm info xxx 查看xxx包信息
 
 MY NPM INSTALL DIRECTORY: /User/liugenjie/node_modules
 
-Reference
+## npm 升级
+
+npm install npm -g  升级自身到最新版，如果直接直接 node，npm 会自动升级到最新版
+如果在以后的使用中，报错 npm ERR! code MODULE_NOT_FOUND，那么按如下修改
+需要先降级node，重新安装npm（前提是你安装过n模块）。
+    sudo n 6
+    sudo npm install npm -g
+    sudo n stable
+
+## Reference
+
 https://www.npmjs.com
 https://docs.npmjs.com/
 https://github.com/nodejs-tw/nodejs-little-book/blob/master/zh-tw/node_npm.rst

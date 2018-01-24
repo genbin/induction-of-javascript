@@ -1,8 +1,8 @@
-Flame_Chart
+Flame_Chart  火焰图
 
 The Call Tree and the Flame Chart are both used to analyze your site's JavaScript, and they both use the same data: a sample of the JavaScript engine's stack, taken periodically during the recording.
 
-But while the Call Tree organizes this data to show you where your program is spending most time in aggregate across the recording, the Flame Chart uses it to show you when in the recording particular functions are executing. Essentially it shows you the state of the call stack at any given point during the recording.
+But while the Call Tree organizes this data to show you where your program is spending most time in aggregate across the recording, the Flame Chart uses it to show you when in the recording particular functions are executing. Essentially it shows you the state of the call stack (调用堆栈) at any given point during the recording.
 
 Zooming and panning
 	

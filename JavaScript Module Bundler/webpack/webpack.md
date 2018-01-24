@@ -1,51 +1,54 @@
-webpack
+# webpack
 
-what is webpack ?
+## what is webpack ?
 
-	webpack is the flexible module bundler. webpack takes modules with dependencies and generates static assets representing those modules.
+webpack is the flexible module bundler. webpack takes modules with dependencies and generates static assets representing those modules.
 
-webpack goals
-	
-	Today’s websites are evolving into web apps:
-		More and more JavaScript is in a page.
-		You can do more stuff in modern browsers.
-		Fewer full page reloads → even more code in a page.
-		As a result there is a lot of code on the client side!
-	A big code base needs to be organized. Module systems offer the option to split your code base into modules.
+## webpack goals
 
-	So the Goals of webpack is as follows:
-		Split the dependency tree into chunks loaded on demand
-		Keep initial loading time low
-		Every static asset should be able to be a module
-		Ability to integrate 3rd-party libraries as modules
-		Ability to customize nearly every part of the module bundler
-		Suited for big projects
+Today’s websites are evolving into web apps:
+    More and more JavaScript is in a page.
+    You can do more stuff in modern browsers.
+    Fewer full page reloads → even more code in a page.
+    As a result there is a lot of code on the client side!
+A big code base needs to be organized. Module systems offer the option to split your code base into modules.
 
-Install
+So the Goals of webpack is as follows:
+    Split the dependency tree into chunks loaded on demand
+    Keep initial loading time low
+    Every static asset should be able to be a module
+    Ability to integrate 3rd-party libraries as modules
+    Ability to customize nearly every part of the module bundler
+    Suited for big projects
 
-	npm install -g -save webpack
+## Install
 
-Usage Example
+npm install -g -save webpack
 
-	Create these files:
+## Usage Example
 
-	add entry.js
-	document.write("It works.");
+Create these files:
 
-	add index.html
-	<html>
-	    <head>
-	        <meta charset="utf-8">
-	    </head>
-	    <body>
-	        <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
-	    </body>
-	</html>
+``` JS
+add entry.js
+document.write("It works.");
 
-	Then run the following:
-	$ webpack ./entry.js bundle.js
+add index.html
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
+    </body>
+</html>
 
-Reference
+Then run the following:
+$ webpack ./entry.js bundle.js
+```
+
+## Reference
+
 http://webpack.github.io
 http://webpack.github.io/docs/
 http://webpack.github.io/docs/configuration.html

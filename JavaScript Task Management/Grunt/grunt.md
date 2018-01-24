@@ -1,3 +1,4 @@
+# Grunt
 
 http://gruntjs.cn/
 
@@ -18,12 +19,3 @@ grunt-cli是如何工作
 
 gruntfile.js配置
   参看Gruntfile_example.js
-    
-  
-  
-    
-
-    
-
-    
-    
